@@ -5,5 +5,5 @@ import (
 )
 
 func Hi(str string) string {
-	return fmt.Sprintf("Hi, %v", str)
+	return fmt.Sprintf("Hi, %v!", str)
 }
