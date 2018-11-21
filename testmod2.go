@@ -4,6 +4,6 @@ import (
 	"fmt"
 )
 
-func Hi(str string) string {
-	return fmt.Sprintf("Hi, %v!", str)
+func Hi(str string, ver string) string {
+	return fmt.Sprintf("Hi, %v! version is %v", str, ver)
 }
